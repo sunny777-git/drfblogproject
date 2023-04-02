@@ -4,3 +4,4 @@ sudo cp /home/ubuntu/blogprojectdrf/gunicorn/gunicorn.service  /etc/systemd/syst
 
 sudo systemctl start gunicorn.service
 sudo systemctl enable gunicorn.service
+sudo systemctl status gunicorn.service
