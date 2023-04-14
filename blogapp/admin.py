@@ -2,8 +2,8 @@ from django.contrib import admin
 from . import models
 
 
-# Register your models here.
-
+# Register your models here....
+# sunny
 @admin.register(models.Blog)
 
 # The BlogAdmin class is a subclass of the admin.ModelAdmin class. 
