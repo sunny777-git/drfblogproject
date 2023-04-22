@@ -3,7 +3,7 @@ from . import models
 
 a= "apple"
 b= "orange"
-c= "danny"
+c= "sunny"
 
 # Register your models here....
 # sunny
