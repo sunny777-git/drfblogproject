@@ -6,10 +6,15 @@ from . import models
 # sunny
 @admin.register(models.Blog)
 
+
+
+
+
+
 class Money:
     name=""
     def __init__(self):
-        self.name= "kuamr"
+        self.name= "kumar"
 
 # The BlogAdmin class is a subclass of the admin.ModelAdmin class. 
 class BlogAdmin(admin.ModelAdmin):
