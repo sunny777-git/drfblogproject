@@ -2,8 +2,8 @@ from django.contrib import admin
 from . import models
 
 a= "apple"
-b= "mango"
-c= "banana"
+b= "orange"
+c= "yellow"
 
 # Register your models here....
 # sunny
