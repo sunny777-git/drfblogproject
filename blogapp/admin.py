@@ -1,20 +1,18 @@
 from django.contrib import admin
 from . import models
 
+a= "apple"
+b= "mango"
+c= "banana"
 
 # Register your models here....
 # sunny
 @admin.register(models.Blog)
 
-
-
-
-
-
 class Money:
     name=""
     def __init__(self):
-        self.name= "kumar"
+        self.name= "kuamr"
 
 # The BlogAdmin class is a subclass of the admin.ModelAdmin class. 
 class BlogAdmin(admin.ModelAdmin):
