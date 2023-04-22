@@ -7,8 +7,9 @@ from . import models
 @admin.register(models.Blog)
 
 class Money:
+    name=""
     def __init__(self):
-        self.name= "sunny"
+        self.name= "kuamr"
 
 # The BlogAdmin class is a subclass of the admin.ModelAdmin class. 
 class BlogAdmin(admin.ModelAdmin):
